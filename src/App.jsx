@@ -4,8 +4,10 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-
+  const [count, setCount] = useState(0) 
+  let eslintTest1 = '1111';
+  let eslintTest2 = 1111 
+  let eslintTest3 = 1111
   return (
     <>
       <div>
@@ -16,7 +18,9 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>Vite + React</h1>
+      {
+        eslintTest1 == eslintTest2 && (<h1>Vite + React</h1>)
+      }
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
