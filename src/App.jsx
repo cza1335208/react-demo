@@ -6,7 +6,7 @@ import './App.css'
 function App() {
   const [count, setCount] = useState(0) 
   let eslintTest1 = '1111';
-  let eslintTest2 = 1111234673
+  let eslintTest2 = 111123467366
   return (
     <>
       <div>
